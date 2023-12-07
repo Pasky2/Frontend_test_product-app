@@ -75,7 +75,7 @@ const ProductDetail = () => {
               backgroundColor: "rgba(10, 10, 10, .96",
             },
             content: {
-              width: "350px",
+              width: "300px",
               height: "400px",
               margin: "0 auto",
             },
@@ -83,7 +83,7 @@ const ProductDetail = () => {
         >
           <button
             onClick={() => setModalIsOpen(false)}
-            className=" mb-8 border border-gray-600 rounded-md py-1 px-2  hover:bg-gray-950 hover:text-white ml-60"
+            className=" mb-8 border border-gray-600 rounded-md py-1 px-2  hover:bg-gray-950 hover:text-white "
           >
             Close
           </button>
@@ -122,7 +122,7 @@ const ProductDetail = () => {
             <div>
               <button
                 type="submit"
-                className="text-slate-900 py-2 px-4 border border-gray-600 rounded-md mx-2 hover:bg-gray-950 hover:text-white ml-56 "
+                className="text-slate-900 py-2 px-4 border border-gray-600 rounded-md mx-2 hover:bg-gray-950 hover:text-white"
               >
                 Update
               </button>
