@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "name": "MacBook 14 Pro",
+        "price": 600000.00,
+        "src": "./images/img2.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut!",
+        "category": "Laptops"
+    },
+    {
+        "id": 1,
+        "name": "MacBook 14 Pro",
+        "price": 600000.00,
+        "src": "./images/img2.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut!",
+        "category": "Laptops"
+    },
+    {
+        "id": 1,
+        "name": "MacBook 14 Pro",
+        "price": 600000.00,
+        "src": "./images/img3.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut!",
+        "category": "Laptops"
+    },
+    {
+        "id": 1,
+        "name": "MacBook 14 Pro",
+        "price": 600000.00,
+        "src": "./images/img4.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut!",
+        "category": "Laptops"
+    },
+    {
+        "id": 1,
+        "name": "MacBook 14 Pro",
+        "price": 600000.00,
+        "src": "./images/img5.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut!",
+        "category": "Laptops"
+    },
+    {
+        "id": 1,
+        "name": "MacBook 14 Pro",
+        "price": 600000.00,
+        "src": "./images/img6.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut!",
+        "category": "Laptops"
+    },
+    {
+        "id": 1,
+        "name": "MacBook 14 Pro",
+        "price": 600000.00,
+        "src": "./images/img7.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut!",
+        "category": "Laptops"
+    },
+    {
+        "id": 1,
+        "name": "MacBook 14 Pro",
+        "price": 600000.00,
+        "src": "./images/img8.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut!",
+        "category": "Laptops"
+    },
+    {
+        "id": 1,
+        "name": "MacBook 14 Pro",
+        "price": 600000.00,
+        "src": "./images/img9.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut!",
+        "category": "Laptops"
+    },
+    {
+        "id": 1,
+        "name": "MacBook 14 Pro",
+        "price": 600000.00,
+        "src": "./images/img5.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut!",
+        "category": "Laptops"
+    },
+    {
+        "id": 1,
+        "name": "MacBook 14 Pro",
+        "price": 600000.00,
+        "src": "./images/img4.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut!",
+        "category": "Laptops"
+    },
+    {
+        "id": 1,
+        "name": "MacBook 14 Pro",
+        "price": 600000.00,
+        "src": "./images/macbook.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut!",
+        "category": "Laptops"
+    }
+]
