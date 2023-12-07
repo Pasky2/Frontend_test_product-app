@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <>
       <header className="bg-zinc-950 text-white sticky top-0 flex-wrap z-20 mx-auto flex items-center justify-between border-b border-gray-200 px-10 p-6 text-lg">
-        <h1 className="font-bold border border-gray-300 rounded-tr-md rounded-bl-md p-1">PASCAL</h1>
+        <Link to='/' className="font-bold border border-gray-300 rounded-tr-md rounded-bl-md p-1">PASCAL</Link>
         <Nav />
       </header>
       <HeroSection />

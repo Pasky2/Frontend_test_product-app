@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "./Header";
 // import Footer from "./Footer";
+import { BeatLoader } from "react-spinners";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
@@ -20,7 +21,7 @@ const ProductList = () => {
     setTimeout(() => {
       fetchProducts();
       setLoading(false);
-    }, 500)
+    }, 1000)
   }, []);
 
   return (
@@ -29,8 +30,8 @@ const ProductList = () => {
       <h1 className="p-8 text-2xl font-bold">Product List</h1>
 
       {loading && (
-        <div className="text-center">
-          <h4>Loading...</h4>
+        <div>
+          <BeatLoader className="text-center"  size={24}/>
         </div>
       )}
 
@@ -50,13 +51,15 @@ const ProductList = () => {
         )}
       </ul>
      
-      <div>
-        <h1>Pasky@great</h1>
-        <div>
-            <Link to='/'>About</Link>
-            <Link to='/'>Blog</Link>
-            <Link to='/'>Products</Link>
+      <div className="bg-zinc-950 h-52 mt-8 text-center py-8">
+        <h1 className="text-white mb-4 text-lg">Pasky2great.com</h1>
+        <div className="mb-4">
+            <Link to='/' className="mx-4 my-4 text-white  hover:border-b-2 hover:text-gray-400 decoration-solid">About</Link>
+            <Link to='/' className="mx-4 my-4 text-white  hover:border-b-2 hover:text-gray-400 decoration-solid">Blog</Link>
+            <Link to='/' className="mx-4 my-4 text-white  hover:border-b-2 hover:text-gray-400 decoration-solid">Products</Link>
+            <Link to='/' className="mx-4 my-4 text-white  hover:border-b-2 hover:text-gray-400 decoration-solid">Categories</Link>
         </div>
+        <p className="text-gray-400">Copyright @2023. All rights reserved, Pascal.</p>
       </div>
     </div>
   );

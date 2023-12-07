@@ -5,9 +5,11 @@ import { Menu, X  } from "lucide-react";
 const NavLinks = () => {
   return (
     <>
-      <NavLink to="/dashboard">About</NavLink>
-      <NavLink to="/Blog">Blog</NavLink>
-      <NavLink to="/Products">Products</NavLink>
+      <NavLink to="/dashboard" className=' hover:border-b-2 hover:text-gray-400 decoration-solid'>About</NavLink>
+      <NavLink to="/Blog" className=' hover:border-b-2 hover:text-gray-400 decoration-solid'>Blog</NavLink>
+      <NavLink to="/Products" className=' hover:border-b-2 hover:text-gray-400 decoration-solid'>Products</NavLink>
+      <NavLink to="/Products" className=' hover:border-b-2 hover:text-gray-400 decoration-solid'>Categories</NavLink>
+
     </>
   );
 };
@@ -24,7 +26,7 @@ const Nav = () => {
   return (
     <>
     <nav className=" flex w-1/3 justify-end">
-      <div className="hidden md:flex justify-around w-full">
+      <div className="hidden md:flex justify-evenly w-full">
         <NavLinks />
       </div>
 
