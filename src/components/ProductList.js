@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Header from "./Header";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
@@ -49,7 +49,15 @@ const ProductList = () => {
           <p className="text-center text-lg">Products not found</p>
         )}
       </ul>
-      <Footer />
+     
+      <div>
+        <h1>Pasky@great</h1>
+        <div>
+            <Link to='/'>About</Link>
+            <Link to='/'>Blog</Link>
+            <Link to='/'>Products</Link>
+        </div>
+      </div>
     </div>
   );
 };
