@@ -10,9 +10,9 @@ const ProductDetail = () => {
   const { id } = useParams();
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [inputData, setInputData] = useState({
-    name: '',
-    category: '',
-    description: ''
+    slug: '',
+    title: '',
+    content: ''
   });
 
   useEffect(() => {
@@ -22,17 +22,16 @@ const ProductDetail = () => {
 
   useEffect(() => {
     axios.get(`https://jsonplaceholder.org/posts/${id}`)
-    .then((response) => response.json())
-    .then((data) => setInputData(data))
+    .then((res) => setInputData(res.data))
     .catch(error => console.log(error));
-  }, [id]);
+  }, []);
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.put(`https://jsonplaceholder.org/posts/${id}`, product)
+    axios.put(`https://jsonplaceholder.org/posts/${id}`, inputData)
     .then ((response) => {
-      alert('Data Updated Successfully')
-      Navigate('/')
+      setInputData(response.data);
+      Navigate('/');
     })
   }
 
@@ -92,7 +91,6 @@ const ProductDetail = () => {
             <div className="mb-3">
               <input
               onChange={e => setInputData({...inputData, name: e.target.value})}
-              value={inputData.slug}
                 type="text"
                 placeholder="Name"
                 className="w-full border rounded-md py-2 pl-6 shadow-sm focus:outline-none placeholder:italic placeholder:text-slate-400 block border-slate-600"
@@ -101,7 +99,6 @@ const ProductDetail = () => {
 
             <div className="mb-3">
               <input
-              value={inputData.title}
               onChange={e => setInputData({...inputData, category: e.target.value})}
                 type="text"
                 placeholder="Category"
@@ -112,7 +109,7 @@ const ProductDetail = () => {
             <div className="mb-3">
               <textarea
               onChange={e => setInputData({...inputData, description: e.target.value})}
-              value={inputData.content}
+
                 type="text"
                 placeholder="Description"
                 className="w-full border rounded-md py-2 pl-6 shadow-sm focus:outline-none placeholder:italic placeholder:text-slate-400 block border-slate-600"
